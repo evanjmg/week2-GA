@@ -193,8 +193,9 @@ input[value = "IT'S ON BABY."] {
 		width:40%;
 		font-size: 15px;
 	}
-	input[value = "IT'S ON BABY."] {
-		font-size: 12px;
+	input.header-button#arnold{
+		font-size: 14px;
+		padding:7px;
 	}
 	div.win-counter {
 		font-size:15px;
