@@ -182,6 +182,7 @@ input[value = "IT'S ON BABY."] {
 	header {
 		padding: 5px 0;
 		height:6%;
+		background-color: black;
 	}
 	div h2 {
 		display:block;
