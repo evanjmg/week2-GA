@@ -164,6 +164,10 @@ input[value = "IT'S ON BABY."] {
 		width:20%;
 		height:10%;
 		font-size:2em;
+		border-radius: 5px;
+	}
+	input.buttons:active {
+		border-radius: 4px;
 	}
 	div h1 {
 		display: block;
