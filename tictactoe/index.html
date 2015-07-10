@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>TicTacToe</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="../js/jquery.js"></script>
+	<script src="../js/app.js"></script>
+</head>
+<body>
+
+<header>
+<br/>
+<h1>EVAN GILLOGLEY</h1>
+			<nav id="nav">	
+			<ul>
+					<li><a href="#"></a></li>
+					<li><a href="../about.html" class="dropdown">About</a></li>
+					<li><a href="../index.html" class="dropdown">Apps</a></li>
+				</ul>
+		
+	</nav>
+</header>
+	<div id="container">
+		<header>
+			<h1> Tic Tac Toe</h1>
+			<h2 id="display">X goes first</h2> 
+			<input type="text" id="clear" class="header-button" value="Clear" readonly>
+			<div id="win-counter">
+			<h3>Wins
+			 <span id="x">X:</span> 
+			 		<span id="X-wins">0</span>
+			 <span id="O"> O:</span>  
+			 		<span id="O-wins">0</span></h3>
+			 	</div>
+			<input type="text" id="reset" class="header-button" value="Reset Match" readonly>
+
+		</header>
+		<div id="content-wrapper">
+			<ul>
+				<input type="button" class="buttons magenta blue" id="1">
+				<input type="button" class="buttons magenta blue" id="2">
+				<input type="button" class="buttons magenta blue" id="3">
+			</ul> 
+			<ul> 
+				<input type="button" class="buttons magenta blue" id="4">
+				<input type="button" class="buttons magenta blue" id="5">
+				<input type="button" class="buttons magenta blue" id="6">
+			</ul> 
+			<ul>
+				<input type="button" class="buttons magenta blue" id="7">
+				<input type="button" class="buttons magenta blue" id="8">
+				<input type="button" class="buttons magenta blue" id="9">
+			</ul>
+			<input type="text" id="cpu" class="header-button" value="Play CPU" readonly>
+			<input type="text" id="arnold" class="header-button" value="Play Arnold" readonly>
+		</div>
+		<footer>
+		<a href="http://evancv.com"> Evan Gillogley 2015 </a>
+		</footer>
+	</div>
+	<script src="tictactoe.js" type="text/javascript"></script>
+</body>
+</html>

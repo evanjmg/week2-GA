@@ -1,0 +1,191 @@
+
+body {
+	margin:0;
+	background: black;
+	font-family:'Futura',sans-serif;
+	color:white;
+}
+div h1 {
+	padding:5px;
+}
+#container {
+	margin:0 auto;
+	max-width: 550px;
+	margin-top:20px;
+	color: white;
+	text-align: center;
+	display:block;
+	background-color: rgba(0,0,0,0.9);
+}
+div header {
+	height:30%;
+}
+h3 {
+	margin:auto;
+	display:inline-block;
+}
+span#O {
+	color:#00CCCC;
+}
+span#X {
+	color:magenta;
+}
+input.header-button {
+	width:125px;
+	font-size: 20px;
+	font-family:'Futura',sans-serif;
+	border-radius: 10px;
+	border:0;
+	color:white;
+	margin:0%;
+	margin-bottom:10px;
+	text-align: center;
+	padding:5px;
+	margin:10px;
+}
+
+input[value = "Clear"] {
+	background-color:magenta;
+	border:2px solid magenta;
+}
+input[value = "Clear"]:hover {
+	border:2px solid white;
+}
+input[value = "Reset Match"] {
+	background-color:#00CCCC;
+	border:2px solid #00CCCC;
+}
+input[value = "Reset Match"]:hover {
+	border:2px solid white;
+}
+div#content-wrapper {
+	clear:both;
+}
+input.buttons {
+	border:1px solid white;
+	display:inline-block;
+	width: 125px;
+	height: 125px;
+	color:black;
+	margin:10px;
+	vertical-align: top;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 800;
+	border-radius:10px;
+	border-color:white;
+	background-color: transparent;
+	clear: both;
+	opacity: 1;
+
+
+}
+input.buttons:hover {
+	background-color: rgba(255,255,255,0.5);
+	opacity:0.5;
+
+}
+input[0] {
+	clear: both; 
+}
+ul {
+	-webkit-padding-start: 0px;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+input[value = "X"] {
+	background-color:magenta;
+	color:white;
+	border:none;
+	transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+}
+input[value = "O"] {
+	background-color:#00CCCC;
+	color:white;
+	border:none;
+	transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+}
+
+
+.button {
+	border:1px;
+	width:100px;
+}
+#reminder {
+	font-size:10px;
+}
+footer {
+	padding:10px 0;
+}
+div a {
+	text-decoration: none;
+	color: white;
+
+}
+a:hover {
+	color:#00CCCC;
+
+}
+input#cpu {
+	background-color:transparent;
+	border:1px solid white;
+}
+input#cpu:hover {
+	background-color:rgba(34,139,34,0.7);
+	border:none;
+	
+}
+#arnold {
+	display:none;
+}
+input[value = "Play Arnold"] {
+	background-color:transparent;
+	border:1px solid white;
+}
+input[value = "Play Arnold"]:hover {
+	background-color:rgba(139,0,0,0.75);
+}
+
+input[value = "IT'S ON BABY."] {
+	border:none;
+	background-color:#8B0000;
+	width:20%;
+	transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+}
+@media only screen and (max-width: 640px) {
+	input.buttons {
+		width:80px;
+		height:80px;
+	}
+	div h1 {
+		display: block;
+		width:100%;
+	}
+	input {
+		float:none;
+	}
+	h2{
+		display:block;
+	}
+	div h2 {
+		display:block;
+		clear:both;
+	}
+	.arnold {
+		display: block;
+		width:40%;
+	}
+	div.win-counter {
+		font-size:15px;
+	}
+	div.container header {
+		height: 30%;
+	}
+	}
+@import url('../nav.css');
