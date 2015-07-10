@@ -14,7 +14,6 @@ div h1 {
 	margin-top:20px;
 	color: white;
 	text-align: center;
-	display:block;
 	background-color: rgba(0,0,0,0.9);
 }
 div header {
@@ -37,7 +36,7 @@ input.header-button {
 	border-radius: 10px;
 	border:0;
 	color:white;
-	margin:0%;
+	margin:0;
 	margin-bottom:10px;
 	text-align: center;
 	padding:5px;
@@ -54,9 +53,11 @@ input[value = "Clear"]:hover {
 input[value = "Reset Match"] {
 	background-color:#00CCCC;
 	border:2px solid #00CCCC;
+
 }
 input[value = "Reset Match"]:hover {
 	border:2px solid white;
+
 }
 div#content-wrapper {
 	clear:both;
@@ -160,8 +161,9 @@ input[value = "IT'S ON BABY."] {
 }
 @media only screen and (max-width: 640px) {
 	input.buttons {
-		width:80px;
-		height:80px;
+		width:20%;
+		height:10%;
+		font-size:2em;
 	}
 	div h1 {
 		display: block;
@@ -172,6 +174,10 @@ input[value = "IT'S ON BABY."] {
 	}
 	h2{
 		display:block;
+	}
+	header {
+		padding: 5px 0;
+		height:6%;
 	}
 	div h2 {
 		display:block;
@@ -186,6 +192,10 @@ input[value = "IT'S ON BABY."] {
 	}
 	div.container header {
 		height: 30%;
+	}
+	div.content-wrapper {
+		margin-top:40px;
+		display:block;
 	}
 	}
 @import url('../nav.css');
