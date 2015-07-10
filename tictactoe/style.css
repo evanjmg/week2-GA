@@ -193,6 +193,9 @@ input[value = "IT'S ON BABY."] {
 		width:40%;
 		font-size: 15px;
 	}
+	input[value = "IT'S ON BABY."] {
+		font-size: 12px;
+	}
 	div.win-counter {
 		font-size:15px;
 	}
