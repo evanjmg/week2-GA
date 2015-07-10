@@ -191,6 +191,7 @@ input[value = "IT'S ON BABY."] {
 	.arnold {
 		display: block;
 		width:40%;
+		font-size: 15px;
 	}
 	div.win-counter {
 		font-size:15px;
